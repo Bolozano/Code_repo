@@ -7,3 +7,4 @@ np.save('/GPFS/data/yutongmeng/VCG_entities/vcg_entities_train.npy',save_dict)
 
 re查找
 re.search(r'\[.*\]',intent_string).group(0)
+re.search(r'\[.*\]',intent_string).span(0)
