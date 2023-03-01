@@ -1,0 +1,3 @@
+numpy读写字典
+pp=np.load('/GPFS/data/yutongmeng/VCG_entities/vcg_entities_test.npy',allow_pickle=True).item()
+np.save('/GPFS/data/yutongmeng/VCG_entities/vcg_entities_train.npy',save_dict)
