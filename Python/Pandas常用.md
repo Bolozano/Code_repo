@@ -18,3 +18,7 @@ df1.apply(f,axis=1)
 
 
 series.reindex,   dataframe.reindex    如果新索引没有对应的值，默认为nan，减少索引的话，相当于切片。
+
+pandas中的shift函数
+shift(period,freq,axis)
+index不动移动数据，移动后没有值的赋值为Nan。
