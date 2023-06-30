@@ -22,3 +22,7 @@ series.reindex,   dataframe.reindex    如果新索引没有对应的值，默�
 pandas中的shift函数
 shift(period,freq,axis)
 index不动移动数据，移动后没有值的赋值为Nan。
+
+
+
+Dataframe.groupby().shift()要考虑到grouby后在一个groupby组内的元素已经去掉nan了，所以shift（2）会有问题。
